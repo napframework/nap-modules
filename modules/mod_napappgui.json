@@ -1,0 +1,22 @@
+{
+  "name": "mod_napappgui",
+  "categories":
+  [
+    "rendering",
+    "gui"
+  ],
+  "context": "source",
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Wraps ImGUI element for easier use, including a caching system",
+  "link": "https://github.com/napframework"
+}

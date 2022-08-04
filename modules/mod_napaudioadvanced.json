@@ -1,0 +1,21 @@
+{
+  "name": "mod_napaudioadvanced",
+  "categories":
+  [
+    "audio"
+  ],
+  "context": "source",
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "Stijn van Beek",
+    "link": "http://www.stijnvanbeek.nl"
+  },
+  "description": "More advanced audio operations and effects, including reverbs, delays etc",
+  "link": "https://github.com/napframework"
+}
