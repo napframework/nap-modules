@@ -5,7 +5,7 @@
     "computer vision",
     "rendering"
   ],
-  "context": "package",
+  "context": "source",
   "platforms":
   [
     "Windows",
