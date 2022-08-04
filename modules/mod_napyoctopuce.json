@@ -18,6 +18,6 @@
     "name": "NAP Labs",
     "link": "https://nap-labs.tech"
   },
-  "description": "Adds Yoctopuce usb functionality to NAP",
+  "description": "Adds Yoctopuce usb & networking functionality to NAP",
   "link": "https://www.yoctopuce.com/"
 }
