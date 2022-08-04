@@ -10,7 +10,8 @@
   "platforms":
   [
     "Windows",
-    "Linux"
+    "Linux",
+    "macOS
   ],
   "author":
   {
