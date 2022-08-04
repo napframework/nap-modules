@@ -5,12 +5,11 @@
     "computer vision",
     "rendering"
   ],
-  "context": "source",
+  "context": "package",
   "platforms":
   [
     "Windows",
-    "Linux",
-    "macOS"
+    "Linux"
   ],
   "author":
   {
