@@ -1,0 +1,22 @@
+{
+  "name": "mod_napyoctopuce",
+  "categories":
+  [
+    "robotics",
+    "sensors",
+    "iot"
+  ],
+  "context": "source",
+  "platforms":
+  [
+    "Windows",
+    "Linux"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Adds YoctoPuce usb & networking functionality to NAP",
+  "link": "https://www.yoctopuce.com/"
+}
