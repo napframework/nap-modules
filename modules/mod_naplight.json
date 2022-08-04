@@ -15,6 +15,6 @@
     "name": "NAP Labs",
     "link": "https://nap-labs.tech"
   },
-  "description": "Adds 3D lighting to NAP, including: spot-lights, shadow mapping etc.",
+  "description": "Adds 3D lights to NAP, including: spot-lights, shadow mapping etc.",
   "link": "https://github.com/napframework"
 }
