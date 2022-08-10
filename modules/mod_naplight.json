@@ -4,11 +4,6 @@
   [
     "rendering"
   ],
-  "contexts":
-  {
-    "source": true,
-    "package": true
-  },
   "platforms":
   [
     "windows",
