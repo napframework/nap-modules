@@ -5,7 +5,11 @@
     "rendering",
     "gui"
   ],
-  "context": "source",
+  "contexts":
+  {
+    "source": true,
+    "package": true
+  },
   "platforms":
   [
     "windows",

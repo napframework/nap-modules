@@ -6,7 +6,11 @@
     "sensors",
     "iot"
   ],
-  "context": "source",
+  "contexts":
+  {
+    "source": true,
+    "package": true
+  },
   "platforms":
   [
     "Windows",

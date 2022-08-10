@@ -5,7 +5,11 @@
     "computer vision",
     "rendering"
   ],
-  "context": "source",
+  "contexts":
+  {
+    "source": true,
+    "package": false
+  },
   "platforms":
   [
     "Windows",
