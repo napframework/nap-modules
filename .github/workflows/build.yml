@@ -23,4 +23,4 @@ jobs:
       # Trigger build of modules.nap.tech build
       - name: trigger netlify build
         run: |
-          https://api.netlify.com/build_hooks/62f38b50eaa7052cfec60a34?trigger_branch=main&trigger_title=triggered+by+nap-modules
+          curl -X POST -d '{}' https://api.netlify.com/build_hooks/62f38b50eaa7052cfec60a34?trigger_branch=main&trigger_title=triggered+by+nap-modules
