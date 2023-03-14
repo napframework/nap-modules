@@ -4,12 +4,20 @@
 </p>
 
 Contains all the registered and publicly available NAP modules. Create a *pull request* following the instructions below to register your own module. All registered modules are automatically indexed and available at: https://modules.nap.tech
-
 <br>
 
 | modules.nap.tech                                                                                                                                                                   |
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![Netlify Status](https://api.netlify.com/api/v1/badges/90424c1c-65ad-4635-b37e-f068853dac2c/deploy-status)](https://app.netlify.com/sites/modules-nap-tech/deploys/?branch=main) |
+
+* [Module Sharing](#module-sharing)
+  * [Prepare Module](#prepare)
+  * [Upload Module](#upload)
+* [Module Registration](#module-registration)
+  * [Description](#description)
+  + [Filename](#filename)
+  + [Required Fields](#required-fields)
+  + [Optional Fields](#optional-fields)
 
 ## Module Sharing
 
@@ -48,7 +56,7 @@ We accept every type of module as long as it doesn't violate our code of conduct
 
 Note that you only register a description of the module, not the actual content. This gives you the freedom to  decide where you want to host your module, what license to tie to the module, how to offer the module for download etc.
 
-### Module Description
+### Description
 
 Every entry in the `modules` directory must follow this `nap*.json` layout:
 
@@ -78,7 +86,7 @@ Every entry in the `modules` directory must follow this `nap*.json` layout:
 
 You can take one of the descriptions in `/modules` as an example. 
 
-#### Filename
+### Filename
 
 The filename **must** begin with `nap` otherwise it won't be indexed, for example:
 
@@ -86,7 +94,7 @@ The filename **must** begin with `nap` otherwise it won't be indexed, for exampl
 napcamerasupport.json
 ```
 
-#### Required Fields
+### Required Fields
 
 The following fields are required:
 
@@ -98,12 +106,12 @@ The following fields are required:
 | link          | download link or link to repository  |
 
 
-#### Optional Fields
+### Optional Fields
 
 The following fields are optional:
 
-| Field       | Description                                |
-|:------------|:-------------------------------------------|
-| categories  | list of categories the module falls into   |
-| platforms   | list of supported platforms (linux, etc.)  |
-| image       | additional image to be displayed.          |
+| Field       | Description                               |
+|:------------|:------------------------------------------|
+| categories  | list of categories the module falls into  |
+| platforms   | list of supported platforms (linux, etc.) |
+| image       | additional image to be displayed          |
