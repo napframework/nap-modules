@@ -57,25 +57,58 @@ You can take one of the descriptions in `/modules` as an example.
 
 #### Filename
 
-The description **must** start with `nap` otherwise it won't be indexed, for example:
+The filename **must** begin with `nap` otherwise it won't be indexed, for example:
 
 ```
 napcamerasupport.json
 ```
 
-#### Mandatory Fields
+#### Required Fields
 
 The following fields are required:
 
-- `name` module name - filename without extension
-- `author` author name
-- `description` brief module description
-- `link` download link
+| Field        | Description                         
+|--------------|-------------------------------------|
+| name         | filename without extension          |
+| author       | name of the author                  |
+| description  | brief description of the module     |
+| link         | download link or link to repository |
+
 
 #### Optional Fields
 
 The following fields are optional:
 
-- `categories` list of associated categories
-- `platforms` list of supported platforms (linux, etc.)
-- `image` additional image to be displayed.
+| Field      | Description                               
+|------------|-------------------------------------------|
+| categories | list of categories the module falls into  |
+| platforms  | list of supported platforms (linux, etc.) |
+| image      | additional image to be displayed.         |
+
+## Module Sharing
+
+Follow these instructions to share your own NAP module with others.
+
+### Content
+
+User modules are kept in the `/modules` directory under the nap root. A typical module has the following content, which will be included when the module is prepared for sharing:
+
+| Content         |  Directory | Required |
+|-----------------|-----------|---------|
+| source code     |        src |      yes |
+| thirdparty libs | thirdparty |       no |
+| demo            |       demo |       no |
+
+### Prepare
+
+Run `tools/prepare_module_to_share` with as the input argument the module you want to share, for example:
+```
+cd tools
+./prepare_module_to_share.sh napopencv
+```
+
+This prepares a copy of the `napopencv` module that is optimized for sharing. Add the `--help` flag for more information about the available options. 
+
+### Upload
+
+Upload the contents of your module to a service of your liking, for example Github or Gitlab. Note that the directory is already initialized as a git repository, which makes it easier to deploy. 
