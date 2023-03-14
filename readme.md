@@ -11,6 +11,29 @@ Contains all the registered and publicly available NAP modules. Create a *pull r
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![Netlify Status](https://api.netlify.com/api/v1/badges/90424c1c-65ad-4635-b37e-f068853dac2c/deploy-status)](https://app.netlify.com/sites/modules-nap-tech/deploys/?branch=main) |
 
+## Module Sharing
+
+Modules are kept in the `/modules` directory under the nap root. A typical module has the following content, which will be included when the module is prepared for sharing:
+
+| Content          | Directory  | Required |
+|:-----------------|------------|----------|
+| source code      | src        | yes      |
+| thirdparty libs  | thirdparty | no       |
+| demo             | demo       | no       |
+
+### Prepare
+
+Run `tools/prepare_module_to_share` with as the input argument the module you want to share, for example:
+```
+cd tools
+./prepare_module_to_share.sh naptween
+```
+
+This prepares a copy of the `naptween` module that is optimized for sharing. Add the `--help` flag for more information about the available options. 
+
+### Upload
+
+Upload the contents of your module to a service of your liking, for example [Github](https://github.com) or [Gitlab](https://gitlab.com). Note that the directory is already initialized as a Git repository, which makes it easier to deploy.
 
 ## Module Registration
 
@@ -67,48 +90,20 @@ napcamerasupport.json
 
 The following fields are required:
 
-| Field        | Description                         
-|--------------|-------------------------------------|
-| name         | filename without extension          |
-| author       | name of the author                  |
-| description  | brief description of the module     |
-| link         | download link or link to repository |
+| Field         | Description                          |
+|:--------------|:-------------------------------------|
+| name          | filename without extension           |
+| author        | name of the author                   |
+| description   | brief description of the module      |
+| link          | download link or link to repository  |
 
 
 #### Optional Fields
 
 The following fields are optional:
 
-| Field      | Description                               
-|------------|-------------------------------------------|
-| categories | list of categories the module falls into  |
-| platforms  | list of supported platforms (linux, etc.) |
-| image      | additional image to be displayed.         |
-
-## Module Sharing
-
-Follow these instructions to share your own NAP module with others.
-
-### Content
-
-User modules are kept in the `/modules` directory under the nap root. A typical module has the following content, which will be included when the module is prepared for sharing:
-
-| Content         |  Directory | Required |
-|-----------------|-----------|---------|
-| source code     |        src |      yes |
-| thirdparty libs | thirdparty |       no |
-| demo            |       demo |       no |
-
-### Prepare
-
-Run `tools/prepare_module_to_share` with as the input argument the module you want to share, for example:
-```
-cd tools
-./prepare_module_to_share.sh napopencv
-```
-
-This prepares a copy of the `napopencv` module that is optimized for sharing. Add the `--help` flag for more information about the available options. 
-
-### Upload
-
-Upload the contents of your module to a service of your liking, for example Github or Gitlab. Note that the directory is already initialized as a git repository, which makes it easier to deploy. 
+| Field       | Description                                |
+|:------------|:-------------------------------------------|
+| categories  | list of categories the module falls into   |
+| platforms   | list of supported platforms (linux, etc.)  |
+| image       | additional image to be displayed.          |
