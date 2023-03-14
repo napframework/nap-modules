@@ -3,7 +3,7 @@
   <img width=384 src="https://download.nap.tech/identity/svg/logos/nap_logo_blue.svg">
 </p>
 
-- [Overview](#description)
+- [Description](#description)
   * [Register your Module](#register-your-module)
     + [Module Description](#module-description)
     + [Filename](#filename)
@@ -13,16 +13,14 @@
     + [Prepare](#prepare)
     + [Upload](#upload)
 
-# Overview
+# Description
 
 This repository acts as a 'database' for publicly available NAP modules. Create a *pull request* following the instructions below to register your own module. All registered modules are automatically indexed and listed on [modules.nap.tech](https://modules.nap.tech)
 <br>
 
 | modules.nap.tech                                                                                                                                                                   |
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![Netlify Status](https://api.netlify.com/api/v1/badges/90424c1c-65ad-4635-b37e-f068853dac2c/deploy-status)](https://app.netlify.com/sites/modules-nap-tech/deploys/?branch=main) |
-
-<br>
 
 ## Register your Module
 
