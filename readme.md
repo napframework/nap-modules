@@ -3,9 +3,9 @@
   <img width=384 src="https://download.nap.tech/identity/svg/logos/nap_logo_blue.svg">
 </p>
 
-- [Description](#description)
+- [Overview](#description)
   * [Register your Module](#register-your-module)
-    + [Description](#description)
+    + [Module Description](#module-description)
     + [Filename](#filename)
     + [Required Fields](#required-fields)
     + [Optional Fields](#optional-fields)
@@ -13,7 +13,7 @@
     + [Prepare](#prepare)
     + [Upload](#upload)
 
-# Description
+# Overview
 
 This repository acts as a 'database' for publicly available NAP modules. Create a *pull request* following the instructions below to register your own module. All registered modules are automatically indexed and listed on [modules.nap.tech](https://modules.nap.tech)
 <br>
@@ -36,7 +36,7 @@ We accept every type of module as long as it doesn't violate our code of conduct
 
 Note that you only register a description of the module, not the actual content. This gives you the freedom to  decide where you want to host your module, what license to tie to the module, how to offer the module for download etc.
 
-### Description
+### Module Description
 
 Every entry in the `modules` directory must follow this `nap*.json` layout:
 
@@ -68,7 +68,7 @@ You can take one of the descriptions in `/modules` as an example.
 
 ### Filename
 
-The filename **must** begin with `nap` otherwise it won't be indexed, for example:
+The filename of the description **must** begin with `nap` otherwise it won't be indexed, for example:
 
 ```
 napcamerasupport.json
