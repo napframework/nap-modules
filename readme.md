@@ -122,5 +122,5 @@ Upload the contents of your module to a service of your liking, for example [Git
 
 ### Share
 
-Register the module using the [procedure](#module-registration) mentioned above. 
+Share your module by following the [registration procedure](#register-your-module) above. 
 
