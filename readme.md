@@ -4,59 +4,35 @@
 </p>
 
 - [Description](#description)
-  * [Module Sharing](#module-sharing)
-    + [Prepare](#prepare)
-    + [Upload](#upload)
-  * [Module Registration](#module-registration)
-    + [Description](#description-1)
+  * [Register your Module](#register-your-module)
+    + [Description](#description)
     + [Filename](#filename)
     + [Required Fields](#required-fields)
     + [Optional Fields](#optional-fields)
+  * [Share your Module](#share-your-module)
+    + [Prepare](#prepare)
+    + [Upload](#upload)
 
 # Description
 
-Contains all the registered and publicly available NAP modules. Create a *pull request* following the instructions below to register your own module. All registered modules are automatically indexed and available at: https://modules.nap.tech
+This repository acts as a 'database' for publicly available NAP modules. Create a *pull request* following the instructions below to register your own module. All registered modules are automatically indexed and listed on [modules.nap.tech](https://modules.nap.tech)
 <br>
-
 
 | modules.nap.tech                                                                                                                                                                   |
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![Netlify Status](https://api.netlify.com/api/v1/badges/90424c1c-65ad-4635-b37e-f068853dac2c/deploy-status)](https://app.netlify.com/sites/modules-nap-tech/deploys/?branch=main) |
 
-## Module Sharing
+## Register your Module
 
-Modules are kept in the `/modules` directory under the nap root. A typical module has the following content, which will be included when the module is prepared for sharing:
+Registration of your own module is rather straight forward:
 
-| Content          | Directory  | Required |
-|:-----------------|------------|----------|
-| source code      | src        | yes      |
-| thirdparty libs  | thirdparty | no       |
-| demo             | demo       | no       |
-
-### Prepare
-
-Run `tools/prepare_module_to_share` with as the input argument the module you want to share, for example:
-```
-cd tools
-./prepare_module_to_share.sh naptween
-```
-
-This prepares a copy of the `naptween` module that is optimized for sharing. Add the `--help` flag for more information about the available options. 
-
-### Upload
-
-Upload the contents of your module to a service of your liking, for example [Github](https://github.com) or [Gitlab](https://gitlab.com). Note that the directory is already initialized as a Git repository, which makes it easier to deploy.
-
-## Module Registration
-
-The process of registering your own module is rather straight forward:
-
-- Add a `.json` file that describes your module to `/modules`
+- Clone this repository
+- Add a `.json` file that describes your module to `modules`
 - Create a pull request and wait for validation
-- The module will be available at: https://modules.nap.tech after merge
+- The module will be listed on [modules.nap.tech](https://modules.nap.tech) after merge
 
-That's it! The PR is validated by the build system and reviewed by someone of the NAP team.
-We accept every type of module as long as it doesn't violate our code of conduct. 
+The pull request is validated by the build system and reviewed by someone of the NAP team.
+We accept every type of module as long as it doesn't violate our code of conduct (TODO). 
 
 Note that you only register a description of the module, not the actual content. This gives you the freedom to  decide where you want to host your module, what license to tie to the module, how to offer the module for download etc.
 
@@ -102,12 +78,12 @@ napcamerasupport.json
 
 The following fields are required:
 
-| Field         | Description                          |
-|:--------------|:-------------------------------------|
-| name          | filename without extension           |
-| author        | name of the author                   |
-| description   | brief description of the module      |
-| link          | download link or link to repository  |
+| Field         | Description                         |
+|:--------------|:------------------------------------|
+| name          | module name                         |
+| author        | author name                         |
+| description   | brief description of the module     |
+| link          | download link or link to repository |
 
 
 ### Optional Fields
@@ -119,3 +95,32 @@ The following fields are optional:
 | categories  | list of categories the module falls into  |
 | platforms   | list of supported platforms (linux, etc.) |
 | image       | additional image to be displayed          |
+
+## Share your Module
+
+User modules are kept in the `modules` directory under the nap root.  A typical module has the following content, which will be included when the module is prepared for sharing:
+
+| Content                 | Directory  | Required |
+|:------------------------|------------|----------|
+| source code             | src        | yes      |
+| thirdparty dependencies | thirdparty | no       |
+| demo application        | demo       | no       |
+
+### Prepare
+
+Run `tools/prepare_module_to_share` with as the input argument the module you want to share, for example:
+```
+cd tools
+./prepare_module_to_share.sh naptween
+```
+
+This prepares a **copy** of the `naptween` module that is optimized for sharing. The copy of the module is moved next to the nap root.  Add the `--help` flag for more information about the available options. 
+
+### Upload
+
+Upload the contents of your module to a service of your liking, for example [Github](https://github.com) or [Gitlab](https://gitlab.com). Note that the directory is already initialized as a Git repository, which makes it easier to deploy.
+
+### Share
+
+Register the module using the [procedure](#module-registration) mentioned above. 
+
