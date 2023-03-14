@@ -1,0 +1,20 @@
+{
+  "name": "napaudioadvanced",
+  "categories":
+  [
+    "audio"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "Stijn van Beek",
+    "link": "http://www.stijnvanbeek.nl"
+  },
+  "description": "Adds more advanced audio operators to NAP, including: oscillators, reverbs etc",
+  "link": "https://github.com/stijnvanbeek/napaudioadvanced"
+}

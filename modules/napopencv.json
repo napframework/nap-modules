@@ -1,0 +1,22 @@
+{
+  "name": "napopencv",
+  "categories":
+  [
+    "computer vision",
+    "rendering"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Adds OpenCV computer vision functionality to NAP",
+  "image": "https://nap.tech/media/nap-tech/02-features/01-04-NAP-screen.jpg",
+  "link": "https://github.com/napframework"
+}

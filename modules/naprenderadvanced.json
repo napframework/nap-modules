@@ -1,0 +1,20 @@
+{
+  "name": "naprenderadvanced",
+  "categories":
+  [
+    "rendering"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Adds more advanced render functionality to NAP, including: lights, shadows, cube-maps etc.",
+  "link": "https://github.com/napframework"
+}

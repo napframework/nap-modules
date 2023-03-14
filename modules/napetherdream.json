@@ -1,0 +1,22 @@
+{
+  "name": "napetherdream",
+  "categories":
+  [
+    "laser",
+    "dac",
+    "etherdream"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Adds support for the Etherdream laser DAC to NAP",
+  "link": "https://github.com/napframework"
+}

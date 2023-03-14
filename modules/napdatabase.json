@@ -1,0 +1,21 @@
+{
+  "name": "napdatabase",
+  "categories":
+  [
+    "SQLite",
+    "database"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "RTTI enabled SQLite database interface for NAP",
+  "link": "https://www.github.com/napframework"
+}

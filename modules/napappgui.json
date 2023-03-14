@@ -1,0 +1,26 @@
+{
+  "name": "napappgui",
+  "categories":
+  [
+    "rendering",
+    "gui"
+  ],
+  "contexts":
+  {
+    "source": true,
+    "package": true
+  },
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "GUI layout system for NAP applications",
+  "link": "https://github.com/napframework"
+}

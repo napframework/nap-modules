@@ -1,0 +1,20 @@
+{
+  "name": "naptween",
+  "categories":
+  [
+    "animation"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Adds tween animation functionality to NAP",
+  "link": "https://github.com/napframework"
+}

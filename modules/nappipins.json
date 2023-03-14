@@ -1,0 +1,20 @@
+{
+  "name": "nappipins",
+  "categories":
+  [
+    "raspberrypi",
+    "gpio",
+    "robotics"
+  ],
+  "platforms":
+  [
+    "raspberry pi"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Raspberry Pi GPIO interface for NAP applications",
+  "link": "https://www.github.com/napframework"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "napsoem",
+  "categories":
+  [
+    "ethercat",
+    "robotics",
+    "servo"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Ethercat master interface for NAP",
+  "link": "https://github.com/napframework"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "naprealsense",
+  "categories":
+  [
+    "depth camera",
+    "computer vision",
+    "intel",
+    "sensors"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Intel realsense depth camera integration for NAP",
+  "link": "https://github.com/napframework"
+}
