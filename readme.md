@@ -22,6 +22,8 @@ This repository acts as a 'database' for publicly available NAP modules. Create 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![Netlify Status](https://api.netlify.com/api/v1/badges/90424c1c-65ad-4635-b37e-f068853dac2c/deploy-status)](https://app.netlify.com/sites/modules-nap-tech/deploys/?branch=main) |
 
+<br>
+
 ## Register your Module
 
 Registration of your own module is rather straight forward:
