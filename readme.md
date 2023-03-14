@@ -25,9 +25,9 @@ We accept every type of module as long as it doesn't violate our code of conduct
 
 Note that you only register a description of the module, not the actual content. This gives you the freedom to  decide where you want to host your module, what license to tie to the module, how to offer the module for download etc.
 
-## Module Entry Layout
+### Module Description
 
-Every entry in the `modules` directory must follow this `.json` layout:
+Every entry in the `modules` directory must follow this `nap*.json` layout:
 
 ```
 {
@@ -53,24 +53,29 @@ Every entry in the `modules` directory must follow this `.json` layout:
 }
 ```
 
-You can take one of the many `.json` entries in `modules` as an example. 
+You can take one of the descriptions in `/modules` as an example. 
 
-### Requirements
+#### Filename
+
+The description **must** start with `nap` otherwise it won't be indexed, for example:
+
+```
+napcamerasupport.json
+```
+
+#### Mandatory Fields
 
 The following fields are required:
 
-- `name` module name, must start with `nap`
+- `name` module name - filename without extension
 - `author` author name
 - `description` brief module description
 - `link` download link
 
-The module `.json` must start with `nap`, otherwise it won't be indexed.
-
-### Optional
+#### Optional Fields
 
 The following fields are optional:
 
 - `categories` list of associated categories
 - `platforms` list of supported platforms (linux, etc.)
 - `image` additional image to be displayed.
-
