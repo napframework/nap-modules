@@ -17,6 +17,6 @@
     "link": "https://nap-labs.tech"
   },
   "description": "RTTI enabled SQLite database interface for NAP",
-  "link": "https://www.github.com/napframework",
+  "link": "https://www.github.com/naivisoftware/napdatabase",
   "visible": true
 }
