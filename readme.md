@@ -15,6 +15,8 @@
 
 # Description
 
+### BETA - NAP 0.6 ONLY
+
 This repository acts as a 'database' for publicly available NAP modules. Create a *pull request* following the instructions below to register your own module. All registered modules are automatically indexed and listed on [modules.nap.tech](https://modules.nap.tech)
 <br>
 
