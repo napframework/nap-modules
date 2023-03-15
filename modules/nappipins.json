@@ -16,5 +16,6 @@
     "link": "https://nap-labs.tech"
   },
   "description": "Raspberry Pi GPIO interface for NAP applications",
-  "link": "https://www.github.com/napframework"
+  "link": "https://www.github.com/napframework",
+  "visible": true
 }

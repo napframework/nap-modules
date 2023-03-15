@@ -16,5 +16,6 @@
     "link": "http://www.stijnvanbeek.nl"
   },
   "description": "Adds more advanced audio operators to NAP, including: oscillators, reverbs etc",
-  "link": "https://github.com/stijnvanbeek/napaudioadvanced"
+  "link": "https://github.com/stijnvanbeek/napaudioadvanced",
+  "visible": true
 }

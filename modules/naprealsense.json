@@ -18,5 +18,6 @@
     "link": "https://nap-labs.tech"
   },
   "description": "Intel realsense depth camera integration for NAP",
-  "link": "https://github.com/napframework"
+  "link": "https://github.com/napframework",
+  "visible": true
 }

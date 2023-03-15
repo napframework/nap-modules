@@ -22,5 +22,6 @@
     "link": "https://nap-labs.tech"
   },
   "description": "GUI layout system for NAP applications",
-  "link": "https://github.com/napframework"
+  "link": "https://github.com/napframework",
+  "visible": true
 }

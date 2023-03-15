@@ -16,5 +16,6 @@
     "link": "https://nap-labs.tech"
   },
   "description": "Adds more advanced render functionality to NAP, including: lights, shadows, cube-maps etc.",
-  "link": "https://github.com/napframework"
+  "link": "https://github.com/napframework",
+  "visible": true
 }
