@@ -120,7 +120,7 @@ This prepares a **copy** of the `naptween` module that is optimized for sharing.
 
 ### Upload
 
-Upload the contents of your module to a service of your liking, for example [Github](https://github.com) or [Gitlab](https://gitlab.com). Note that the directory is already initialized as a Git repository, which makes it easier to deploy.
+Upload the contents of your module to a service of your liking, for example [Github](https://github.com) or [Gitlab](https://gitlab.com).
 
 ### Share
 
