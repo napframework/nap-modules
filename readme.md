@@ -62,7 +62,8 @@ Every entry in the `modules` directory must follow this `nap*.json` layout:
     },
     "description": "This module adds ... to NAP",
     "link": "https://github.com/johndoe/napnewmodule",
-    "image": "https://john-doe.com/image.jpg"
+    "image": "https://john-doe.com/image.jpg",
+    "visible": true
 }
 ```
 
@@ -97,6 +98,7 @@ The following fields are optional:
 | categories  | list of categories the module falls into  |
 | platforms   | list of supported platforms (linux, etc.) |
 | image       | additional image to be displayed          |
+| visible     | if the module should be shown             |
 
 ## Share your Module
 
