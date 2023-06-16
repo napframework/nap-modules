@@ -93,12 +93,12 @@ The following fields are required:
 
 The following fields are optional:
 
-| Field       | Description                               |
-|:------------|:------------------------------------------|
-| categories  | list of categories the module falls into  |
-| platforms   | list of supported platforms (linux, etc.) |
-| image       | additional image to be displayed          |
-| visible     | if the module should be shown             |
+| Field       | Description                                 |
+|:------------|:--------------------------------------------|
+| categories  | list of categories the module falls into    |
+| platforms   | list of supported platforms (linux, etc.)   |
+| image       | additional image to be displayed            |
+| visible     | if the module is visible, defaults to true  |
 
 ## Share your Module
 
