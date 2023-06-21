@@ -16,6 +16,7 @@
     "link": "https://lesleyvanhoek.nl/"
   },
   "description": "Utility that lets you map the encoders of the Midi Fighter Twister to NAP parameters",
+  "image": "https://raw.githubusercontent.com/lshoek/napmiditwister/main/midifightertwister.webp",
   "link": "https://github.com/lshoek/napmiditwister",
   "visible": true
 }
