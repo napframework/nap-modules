@@ -1,0 +1,22 @@
+{
+  "name": "napvban",
+  "categories":
+  [
+    "audio",
+    "udp",
+    "networking"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux"
+  ],
+  "author":
+  {
+    "name": "Tim Groeneboom & Stijn van Beek",
+    "link": "https://www.timgroeneboom.com"
+  },
+  "description": "Low-Latency lossless audio transmission using the VBAN protocol",
+  "link": "https://github.com/TimGroeneboom/napvban",
+  "visible": true
+}
