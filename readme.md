@@ -31,9 +31,6 @@ Registration of your own module is rather straight forward:
 - Create a pull request and wait for validation
 - The module will be listed on [modules.nap.tech](https://modules.nap.tech) after merge
 
-The pull request is validated by the build system and reviewed by someone of the NAP team.
-We accept every type of module as long as it doesn't violate our code of conduct (TODO). 
-
 Note that you only register a description of the module, not the actual content. This gives you the freedom to  decide where you want to host your module, what license to tie to the module, how to offer the module for download etc.
 
 ### Module Description
