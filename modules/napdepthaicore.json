@@ -1,0 +1,25 @@
+{
+  "name": "napdepthaicore",
+  "categories":
+  [
+    "computer vision",
+    "camera"
+  ],
+  "contexts":
+  {
+    "source": true,
+    "package": true
+  },
+  "platforms":
+  [
+    "windows"
+  ],
+  "author":
+  {
+    "name": "Pierre Tardif",
+    "link": "https://codingcoolsh.it/"
+  },
+  "description": "Starting point to use DepthAI-Core Oak-D Lite in Nap Frameworks (Windows)",
+  "link": "https://github.com/pierrextardif/Nap-depthai-core",
+  "visible": true
+}
