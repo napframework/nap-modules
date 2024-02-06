@@ -1,0 +1,21 @@
+{
+  "name": "naptween",
+  "categories":
+  [
+    "control"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux",
+    "macOS"
+  ],
+  "author":
+  {
+    "name": "Tim Groeneboom",
+    "link": "https://www.timgroeneboom.com"
+  },
+  "description": "Create NAP app logic, flow and control using resources and components.",
+  "link": "https://github.com/TimGroeneboom/naptriggeraction",
+  "visible": true
+}
