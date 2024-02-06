@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-  <img width=384 src="https://download.nap.tech/identity/svg/logos/nap_logo_blue.svg">
+  <img width=384 src="https://download.nap-labs.tech/identity/svg/logos/nap_logo_blue.svg">
 </p>
 
 - [Description](#description)
@@ -15,7 +15,7 @@
 
 # Description
 
-This repository acts as a 'database' for publicly available NAP modules. Create a *pull request* following the instructions below to register your own module. All registered modules are automatically indexed and listed on [modules.nap.tech](https://modules.nap.tech)
+This repository acts as a 'database' for publicly available NAP modules. Create a *pull request* following the instructions below to register your own module. All registered modules are automatically indexed and listed on [modules.nap-framework.tech](https://modules.nap-framework.tech)
 <br>
 
 | modules.nap.tech                                                                                                                                                                   |
@@ -30,9 +30,6 @@ Registration of your own module is rather straight forward:
 - Add a `.json` file that describes your module to `modules`
 - Create a pull request and wait for validation
 - The module will be listed on [modules.nap.tech](https://modules.nap.tech) after merge
-
-The pull request is validated by the build system and reviewed by someone of the NAP team.
-We accept every type of module as long as it doesn't violate our code of conduct (TODO). 
 
 Note that you only register a description of the module, not the actual content. This gives you the freedom to  decide where you want to host your module, what license to tie to the module, how to offer the module for download etc.
 

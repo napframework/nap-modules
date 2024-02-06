@@ -14,7 +14,7 @@
     "name": "Lesley van Hoek",
     "link": "https://lesleyvanhoek.nl/"
   },
-  "description": "Module that wraps Kiss FFT functionality for NAP 0.6",
+  "description": "Module that wraps Kiss FFT functionality for NAP",
   "link": "https://github.com/lshoek/napfft",
   "visible": true
 }
