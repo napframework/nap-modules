@@ -6,9 +6,7 @@
   ],
   "platforms":
   [
-    "windows",
-    "linux",
-    "macOS"
+    "linux"
   ],
   "author":
   {
