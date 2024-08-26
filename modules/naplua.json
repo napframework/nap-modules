@@ -13,7 +13,7 @@
     "name": "Casimir Geelhoed",
     "link": "https://github.com/CasimirGeelhoed"
   },
-  "description": "Adds Lua scripting to NAP",
+  "description": "Adds Lua scripting functionality to NAP",
   "link": "https://github.com/CasimirGeelhoed/naplua",
   "visible": true
 }
