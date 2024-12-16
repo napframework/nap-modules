@@ -1,0 +1,21 @@
+{
+  "name": "napvban",
+  "categories":
+  [
+    "networking",
+    "napapi",
+    "rest"
+  ],
+  "platforms":
+  [
+    "linux"
+  ],
+  "author":
+  {
+    "name": "Tim Groeneboom",
+    "link": "https://www.timgroeneboom.com"
+  },
+  "description": "NAP REST API module. Serve a REST API from your NAP App or make calls to a REST api using a REST client",
+  "link": "https://github.com/TimGroeneboom/naprest",
+  "visible": true
+}
