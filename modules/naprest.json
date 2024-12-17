@@ -8,7 +8,7 @@
   ],
   "platforms":
   [
-    "linux"
+    "linux", "windows"
   ],
   "author":
   {
