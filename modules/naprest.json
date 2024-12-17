@@ -8,7 +8,8 @@
   ],
   "platforms":
   [
-    "linux"
+    "linux",
+    "windows (not tested)"
   ],
   "author":
   {
