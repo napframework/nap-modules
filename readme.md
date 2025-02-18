@@ -29,7 +29,7 @@ Registration of your own module is rather straight forward:
 - Clone this repository
 - Add a `.json` file that describes your module to `modules`
 - Create a pull request and wait for validation
-- The module will be listed on [modules.nap.tech](https://modules.nap.tech) after merge
+- The module will be listed on [modules.nap.tech](https://modules.nap-framework.tech) after merge
 
 Note that you only register a description of the module, not the actual content. This gives you the freedom to  decide where you want to host your module, what license to tie to the module, how to offer the module for download etc.
 
