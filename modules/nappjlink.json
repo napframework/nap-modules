@@ -1,0 +1,22 @@
+{
+  "name": "nappjlink",
+  "categories":
+  [
+    "projector",
+    "network",
+    "remote-control"
+  ],
+  "platforms":
+  [
+    "windows",
+    "linux"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "Adds PJLink projector remote-control functionality to NAP",
+  "link": "https://github.com/naivisoftware/nappjlink",
+  "visible": true
+}
