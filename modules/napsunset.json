@@ -1,0 +1,27 @@
+{
+  "name": "napsunset",
+  "categories":
+  [
+    "time",
+    "sunrise",
+    "sunset"
+  ],
+  "contexts":
+  {
+    "source": true,
+    "package": true
+  },
+  "platforms":
+  [
+    "windows",
+    "linux"
+  ],
+  "author":
+  {
+    "name": "Pierre Tardif",
+    "link": "https://codingcoolsh.it/"
+  },
+  "description": "Calculate Sunrise and Sunset based on time, latitude and longitude",
+  "link": "https://github.com/naivisoftware/napsunset",
+  "visible": true
+}
