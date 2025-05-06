@@ -21,7 +21,7 @@
     "name": "Pierre Tardif",
     "link": "https://codingcoolsh.it/"
   },
-  "description": "Calculate Sunrise and Sunset based on time, latitude and longitude",
+  "description": "Calculate sunrise and sunset based on latitude, longitude and time",
   "link": "https://github.com/naivisoftware/napsunset",
   "visible": true
 }
