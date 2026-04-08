@@ -1,0 +1,22 @@
+{
+  "name": "napsoem",
+  "categories":
+  [
+    "mount",
+    "usb",
+    "sd",
+    "scsi"
+  ],
+  "platforms":
+  [
+    "linux"
+  ],
+  "author":
+  {
+    "name": "NAP Labs",
+    "link": "https://nap-labs.tech"
+  },
+  "description": "SCSI disk mounting system (USB, SD) for NAP applications",
+  "link": "https://github.com/naivisoftware/napmount",
+  "visible": true
+}
