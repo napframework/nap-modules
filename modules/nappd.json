@@ -1,0 +1,17 @@
+{
+    "name": "napPd",
+    "categories": [
+        "audio"
+    ],
+    "platforms": [
+        "linux"
+    ],
+    "author": {
+        "name": "Arran Lyon",
+        "link": "https://arranlyon.com"
+    },
+    "description": "Adds a libpd audio node for running PureData patches in NAP applications",
+    "link": "https://github.com/al165/napPd",
+    "image": "https://raw.githubusercontent.com/al165/napPd/main/docs/media/napPd_logo.png",
+    "visible": true
+}
