@@ -1,0 +1,19 @@
+{
+  "name": "napaacdecode",
+  "categories":
+  [
+    "audio"
+  ],
+  "platforms":
+  [
+    "linux"
+  ],
+  "author":
+  {
+    "name": "Tim Groeneboom",
+    "link": "https://www.timgroeneboom.com"
+  },
+  "description": "NAP module that decodes AAC audio files (raw ADTS .aac or MP4/M4A containers) into an interleaved 32 bit floating point sample buffer, optionally resampled to a target sample rate.",
+  "link": "https://github.com/TimGroeneboom/napaacdecode",
+  "visible": true
+}
